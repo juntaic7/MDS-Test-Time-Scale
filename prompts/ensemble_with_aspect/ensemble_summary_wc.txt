@@ -1,0 +1,27 @@
+Take all provided summaries into account and generate a better, cohesive summary of the given documents, focusing on the specified aspect. Combine and refine the content from the summaries to ensure clarity, accuracy, conciseness, and completeness. Provide the final summary directly.
+
+Aspect: 
+{query}
+
+Documents: 
+{doc}
+
+Summary 1:
+{sum1}
+
+Summary 2: 
+{sum2}
+
+Summary 3: 
+{sum3}
+
+Summary 4: 
+{sum4}
+
+Summary 5: 
+{sum5}
+
+Summary 5: 
+{sum5}
+
+Final revised summary:

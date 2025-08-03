@@ -1,0 +1,25 @@
+Given the summary below, extract the **Atomic Content Units (ACUs)** following the provided example. **ACUs** represent the most important factual units in the summary and should be interpretable independently, without unclear references.  
+
+### **Example**  
+#### **Summary:**  
+Chelsea were not awarded a penalty for David Ospina’s clash with Oscar. The Arsenal goalkeeper collided with Oscar inside the box. The Brazilian was substituted at half-time, with Didier Drogba replacing him.  
+
+#### **Extracted ACUs:**  
+- Chelsea were not awarded a penalty.  
+- David Ospina clashed with Oscar.  
+- David Ospina collided with Oscar.  
+- David Ospina plays for Arsenal.  
+- David Ospina is a goalkeeper.  
+- Oscar is Brazilian.  
+- Oscar was substituted at half-time.  
+
+### **Instructions:**  
+1. Extract the **ACUs** from the given summary.  
+2. Ensure the extracted **ACUs** are **factually correct** based on the provided summary.  
+3. Return the results as a dictionary with the key `'ACUs'`, formatted as:  
+   ```json
+   {"ACUs": [ACU1, ACU2, ACU3, ...]}
+   ```  
+
+#### **Summary:**  
+{{gold_summary}}

@@ -1,0 +1,14 @@
+Provide your explanation, then select the best summary of the given documents based on clarity, accuracy, conciseness, and completeness. 
+Example Response:
+Explanation: "Your explanation here".
+Decision: 1 (or 2 or 3 or 4 or 5)
+
+Documents: {doc}
+
+Summary 1: {sum1}
+
+Summary 2: {sum2}
+
+...
+
+Response:

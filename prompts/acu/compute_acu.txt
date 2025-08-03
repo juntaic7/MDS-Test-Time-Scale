@@ -1,0 +1,10 @@
+Evaluate and count how many ACUs from the list are mentioned or entailed in the summary. Return only a JSON object with the count after the analysis.
+
+Input:
+Summary: {{sum}}
+ACUs: {{acus}}
+
+Output format:
+```json
+{"Result": <count>}
+```

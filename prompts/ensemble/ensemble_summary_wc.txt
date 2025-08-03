@@ -1,0 +1,14 @@
+Take all provided summaries into account and generate a better, cohesive summary of the given documents. Combine and refine the content from the summaries to ensure clarity, accuracy, conciseness, and completeness. Provide the final summary directly.
+
+Documents: 
+{doc}
+
+Summary 1:
+{sum1}
+
+Summary 2: 
+{sum2}
+
+...
+
+Final revised summary:

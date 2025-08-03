@@ -1,0 +1,26 @@
+{
+    "experiment": {
+        "agent": "gpt",
+        "model": "gpt-4o",
+        "requests_file": "",
+        "description": "",
+        "output_dir": "requests"
+    },
+    "batch_settings": {
+        "max_tokens": 8192,
+        "temperature": 0.8,
+        "timeout": 600,
+        "sys_message": "You are an expert summarizer."
+    },
+    "models": {
+        "gpt": {
+            "default": "gpt-4o"
+        },
+        "claude": {
+            "default": "claude-3-5-sonnet-20240620"
+        },
+        "qwen": {
+            "default": "qwen-turbo"
+        }
+    }
+}
