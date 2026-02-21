@@ -1,8 +1,4 @@
-# Leveraging Prompt Diversity for Enhanced Multi-Document Summarization
-
-## Notice
-
-The request files and retrieved API responses exceed size limitations and will be made available upon paper acceptance.
+# Multi$$^2$$: Multi-Agent Test-Time Scalable Framework for Multi-Document Processing
 
 ## Workflow
 
